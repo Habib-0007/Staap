@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background: #EA4335; */
+    background: #DB4437;
+    color: #fff;
+    height: 8vh;
+    font-size: 1.2em;
+}
+
+.timer {
+    width: 9em;
+    height: 9em;
+    border-radius: 50%;
+    border: 1px solid #DB4437;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2em;
+    font-size: 1.4em;
+    color: #DB4437;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5em;
+}
+
+.buttons button {
+    width: 7em;
+    height: 2.8em;
+    background: #DB4437;
+    color: #fff;
+    border-radius: 0.3em;
+    font-size: 1em;
+}
+
+footer {
+    margin-top: 9em;
+    margin-bottom: 0;
+}
+
+footer .icons b {
+    display: block;
+    margin-top: 10px;
+    color: #DB4437;
+}
+
+footer .icons {
+    /* height: 90px; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .icons a {
+    text-decoration: none;
+    color: #DB4437;
+    padding-top: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+footer .icons #facebooklink {
+    margin-left: 0 !important;
+}
+
+footer .icons p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
